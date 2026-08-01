@@ -1,0 +1,101 @@
+{
+	"version": "0.1",
+	"files": [
+		{
+			"type": "class",
+			"src": "classes/type.product.class.php",
+			"dest": "classes/items/type.product.class.php",
+			"digest": "sha256:ac7e0de8e5454cf00b9331dd145de7176f08a95c8fcea9d4f42d4f712e1b2065"
+		},
+		{
+			"type": "backend-controller",
+			"src": "www/janitor/product.php",
+			"dest": "www/janitor/product.php",
+			"digest": "sha256:8bdf0fd98ba03821793ef98e6fa08ad6364a95e10d6841b307faefac29d3470a"
+		},
+		{
+			"type": "backend-template",
+			"src": "templates/janitor/product/list.php",
+			"dest": "templates/janitor/product/list.php",
+			"digest": "sha256:1fe3f1c1b72c793e8195ed48caf372d4695cbe6ed38c8afd6cda87e5383ec7a4"
+		},
+		{
+			"type": "backend-template",
+			"src": "templates/janitor/product/edit.php",
+			"dest": "templates/janitor/product/edit.php",
+			"digest": "sha256:2e67d6ece2ece9314608f6c3693c5ff395212968769448c88d7dba19e48a57e4"
+		},
+		{
+			"type": "backend-template",
+			"src": "templates/janitor/product/new.php",
+			"dest": "templates/janitor/product/new.php",
+			"digest": "sha256:0724b3df197561be66f97c62dd73dcfa0fc4657e2b2c6889814bc985826c0934"
+		},
+		{
+			"type": "settings-css",
+			"src": "www/settings/css/s-item-product.css",
+			"dest": "www/janitor/css/setup/modules/s-item-product.css",
+			"digest": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+		},
+		{
+			"type": "settings-js",
+			"src": "www/settings/js/m-item-product.js",
+			"dest": "www/janitor/js/setup/modules/m-item-product.js",
+			"digest": "sha256:ec0962222123b0d66f4d1713ca3911eda7fec76b75a23161b28146ac7e7ba1bc"
+		},
+		{
+			"type": "settings-template",
+			"src": "templates/settings/index.php",
+			"dest": "templates/janitor/modules/item/product/index.php",
+			"digest": "sha256:c8186cef4dda58c17ffe448d649e9f4ef12d45a5f419ac8d7945d3b51e1c4c1c"
+		},
+		{
+			"type": "controller",
+			"src": "www/products.php",
+			"dest": "www/products.php",
+			"digest": "sha256:7ec187d212bee1e9d7ccd9d8ab33a83bbc00d344a242f8f1cc610a162e4e3f1e"
+		},
+		{
+			"type": "template",
+			"src": "templates/products/index.php",
+			"dest": "templates/products/index.php",
+			"digest": "sha256:a71eb75dbd367d8b904e3b5c77ee4cbab5f74c76da2e5ea9090dc23979f2feec"
+		},
+		{
+			"type": "template",
+			"src": "templates/products/view.php",
+			"dest": "templates/products/view.php",
+			"digest": "sha256:d8bc5ed08d5f3966c8451c949a88ad58e0cedb7084c7acb07ce49ba428da77ba"
+		},
+		{
+			"type": "data-model",
+			"src": "config/db/item_product.sql",
+			"digest": "sha256:08355ceffdc58f420b2eb7435d51b51a1f99f6cbf1ce83fa603b2e692560d7b5"
+		},
+		{
+			"type": "data-model",
+			"src": "config/db/item_product_variants.sql",
+			"digest": "sha256:ba8dff4a94d288f9a54d01ac9bde65165301d8abed51e81e42cbddf4c0900d40"
+		},
+		{
+			"type": "data-install",
+			"src": "config/db/navigation_nodes.sql",
+			"digest": "sha256:fa51cd81b221673ebabb92517318b804eb22ce67ac4b0d9a11ef3afb8c23c17b"
+		},
+		{
+			"type": "data-uninstall",
+			"src": "config/db/navigation_nodes_uninstall.sql",
+			"digest": "sha256:da14f85840ce8f53975b355f85b27e781c2717dc48e4952931290331ef8d8c95"
+		},
+		{
+			"type": "data-uninstall-all",
+			"src": "config/db/item_product_data_uninstall.sql",
+			"digest": "sha256:ac12ba7e2557a1a6b8cebed85c4ac5669289c0b0730d68edb76253e2d161ef44"
+		},
+		{
+			"type": "data-uninstall-all",
+			"src": "config/db/item_product_uninstall.sql",
+			"digest": "sha256:85b52e5ad932c0dad4fd6d5e557953357ad3f88da57db17cdbe314b0b17bb574"
+		}
+	]
+}
