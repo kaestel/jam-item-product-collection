@@ -1,6 +1,6 @@
 <?php
 $controller_type = "item";
-$controller_itemtype = "product";
+$controller_itemtype = "product-variants";
 $controller_favors = ["view" => "product", "list" => "List products"];
 
 $access_item = false;

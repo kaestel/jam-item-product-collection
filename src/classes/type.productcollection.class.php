@@ -4,7 +4,7 @@
 * This file contains itemtype functionality
 */
 
-class TypeProduct extends Itemtype {
+class TypeProductcollection extends Itemtype {
 
 
 	public $db;
@@ -21,8 +21,7 @@ class TypeProduct extends Itemtype {
 
 
 		// itemtype database
-		$this->db = SITE_DB.".item_product";
-		$this->db_variants = SITE_DB.".item_product_variants";
+		$this->db = SITE_DB.".item_productcollection";
 
 
 		// Name
@@ -100,6 +99,8 @@ class TypeProduct extends Itemtype {
 	}
 
 	function get($item_id) {
+
+		$query = new Query();
 
 		$sql = "SELECT * FROM ".$this->db." WHERE item_id = $item_id";
 		if($query->sql($sql)) {

@@ -24,7 +24,6 @@ $item = items()->getItem(array("id" => $item_id, "extend" => array("tags" => tru
 			<fieldset>
 				<?= $model->input("name", array("value" => $item["name"])) ?>
 				<?= $model->input("brand", array("value" => $item["brand"])) ?>
-				<?= $model->input("stock", array("value" => $item["stock"])) ?>
 				<?= $model->input("description", array("class" => "autoexpand short", "value" => $item["description"])) ?>
 				<?= $model->input("html", array("value" => $item["html"])) ?>
 			</fieldset>
@@ -34,6 +33,9 @@ $item = items()->getItem(array("id" => $item_id, "extend" => array("tags" => tru
 		<?= $model->formEnd() ?>
 	</div>
 
+	<?= $JML->editTags($item, ["context" => "size", "label" => "Size"]) ?>
+
+	<?= $JML->editTags($item, ["context" => "color", "label" => "Color"]) ?>
 
 	<?= $JML->editMediae($item) ?>
 

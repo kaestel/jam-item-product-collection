@@ -7,7 +7,7 @@ $controller = module()->getMainControllerPath($module_id);
 
 ?>
 <div class="scene module i:module item-product i:itemProduct">
-	<h1>Itemtype Product</h1>
+	<h1>Itemtype Product, with variants</h1>
 	<h2>Configuration</h2>
 
 	<?= HTML()->renderSnippet("snippets/modules/actions-back.php") ?>

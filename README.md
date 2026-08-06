@@ -1,4 +1,4 @@
-This is the source code for Janitor module item/product (with variants)
+This is the source code for Janitor module item/productcollection
 
 # About Janitor
 Janitor is an open source PHP content management and distribution developer toolkit, with a unique focus on frontend development. 
