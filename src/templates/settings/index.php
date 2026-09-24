@@ -7,7 +7,7 @@ $controller = module()->getMainControllerPath($module_id);
 
 ?>
 <div class="scene module i:module item-product i:itemProduct">
-	<h1>Itemtype Product, with variants</h1>
+	<h1>Itemtype, Product collection</h1>
 	<h2>Configuration</h2>
 
 	<?= HTML()->renderSnippet("snippets/modules/actions-back.php") ?>
@@ -25,22 +25,22 @@ $controller = module()->getMainControllerPath($module_id);
 		<h2>Controller</h2>
 
 		<p>
-			The product controller is used to access product items and create meaningful urls on your website.
+			The product collection controller is used to access product collections and create meaningful urls on your website.
 		</p>
 		<p>
-			Your product items can be accessed via any of your product item controller by adding the product item sindex to the 
+			Your product collections can be accessed via the product collection controller by adding the product item sindex to the 
 			controller path, like this:
 		</p>
-		<code><?= SITE_URL ?><span class="controller"><?= $controller ?></span>/product-item-sindex</code>
+		<code><?= SITE_URL ?><span class="controller"><?= $controller ?></span>/productcollection-item-sindex</code>
 
-		<h3>Product item controller</h3>
+		<h3>Product collection controller</h3>
 		<ul class="controllers">
 			<li>
 				<h4><span class="controller"><?= $controller ?></span></h4>
 			</li>
 		</ul>
 
-		<?= HTML()->formStart("modules/renameController/item/product", array("class" => "rename_controller labelstyle:inject")) ?>
+		<?= HTML()->formStart("modules/renameController/item/productcollection", array("class" => "rename_controller labelstyle:inject")) ?>
 			<fieldset>
 				<h3>Rename controller</h3>
 				<p>

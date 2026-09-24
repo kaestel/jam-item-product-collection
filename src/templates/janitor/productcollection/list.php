@@ -7,10 +7,10 @@ $items = items()->getItems(array("itemtype" => $itemtype, "order" => "status DES
 ?>
 
 <div class="scene i:scene defaultList <?= $itemtype ?>List">
-	<h1>Products</h1>
+	<h1>Product collections</h1>
 
 	<ul class="actions">
-		<?= $JML->listNew(array("label" => "New product")) ?>
+		<?= $JML->listNew(array("label" => "New collection")) ?>
 	</ul>
 
 	<div class="all_items i:defaultList taggable sortable filters"<?= $HTML->jsData(["order", "tags", "search"], ["filter-tag-contexts" => $itemtype]) ?>>

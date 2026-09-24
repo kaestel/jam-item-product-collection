@@ -4,7 +4,7 @@ global $model;
 global $itemtype;
 ?>
 <div class="scene i:scene defaultNew">
-	<h1>New product</h1>
+	<h1>New product collection</h1>
 
 	<ul class="actions">
 		<?= $JML->newList(array("label" => "List")) ?>

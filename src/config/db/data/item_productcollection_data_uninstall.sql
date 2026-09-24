@@ -1,1 +1,1 @@
-DELETE FROM `SITE_DB`.`items` WHERE `itemtype` = 'product';
+DELETE FROM `SITE_DB`.`items` WHERE `itemtype` = 'productcollection';

@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS `SITE_DB`.`item_product`,`SITE_DB`.`item_product_variants`;
+DROP TABLE IF EXISTS `SITE_DB`.`item_productcollection`,`SITE_DB`.`item_productcollection_items`;

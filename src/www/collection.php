@@ -1,7 +1,7 @@
 <?php
 $controller_type = "item";
-$controller_itemtype = "product-variants";
-$controller_favors = ["view" => "product", "list" => "List products"];
+$controller_itemtype = "productcollection";
+$controller_favors = ["view" => "product collection", "list" => "List products"];
 
 $access_item = false;
 if(isset($read_access) && $read_access) {
@@ -19,14 +19,14 @@ $action = $page->actions();
 // /services/#sindex#
 if(count($action) == 1) {
 
-	$page->page(array(
-		"templates" => "products/view.php"
-	));
+	$page->page([
+		"templates" => "productcollection/view.php"
+	]);
 	exit();
 
 }
 
-$page->page(array(
-	"templates" => "products/index.php"
-));
+$page->page([
+	"templates" => "productcollection/index.php"
+]);
 exit();
