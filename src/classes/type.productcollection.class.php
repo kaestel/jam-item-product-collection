@@ -17,7 +17,7 @@ class TypeProductcollection extends Itemtype {
 	function __construct() {
 
 		// construct ItemType before adding to model
-		parent::__construct(get_class());
+		parent::__construct(get_class($this));
 
 
 		// itemtype database
